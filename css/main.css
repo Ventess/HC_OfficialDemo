@@ -1,0 +1,531 @@
+
+body {
+    /* font-family: 微軟正黑體; */
+    /* background-image: url("/img/AdobeStock_301845203.jpeg"); */
+    font-family: 'Noto Serif TC', serif;
+    background-image: url("/HorngChaang//img/AdobeStock_301845203.jpg");
+    background-size: 1920px auto;
+    height: 1080px;
+    position:relative;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.wrap {
+    width: 1600px;
+    margin: 0 auto;
+
+}
+.header {
+    /* border: 3px solid #123456; */
+    background-repeat: none;
+    opacity: 0.8;
+}
+
+
+.header h1 a {
+    width: 300px;
+    height: 200px;
+    background-image: url("/HorngChaang/img/HorngchaangLogo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    margin-bottom: -10px;
+    float: left;
+}
+
+
+.header  p {
+    float: left;
+    margin-top:115px;
+    margin-left:30px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 2px;
+    /* color: #cec6b8; */
+    color: #d2f7d5;
+}
+
+.header ul {
+    float: right;
+    font-size: 24px;
+    color: #ffffff;
+    margin-right:50px;
+    margin-top: 125px;
+}
+
+.header ul li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a:link {
+    color:#ffffff;
+}
+
+.header a:visited {
+    color: #ffffff;
+}
+
+.clearfix:after {
+    content:'';
+    display: tabel;
+    clear: both;
+}
+
+.content {
+    opacity: 0.8;
+    border-bottom: 5px solid #725e277a;
+}
+
+.slideshow {
+    height: 530px;
+    /* background-color: #b39fa2; */
+    /* background-image: url("/HorngChaang/img/temp/AdobeStock_225585088_Preview.jpeg"); */
+    /* background-image: url("/HorngChaang/img/slide/AdobeStock_300128393_Preview.jpeg"); */
+    /* background-image: url("/HorngChaang/img/slide/AdobeStock_302110379_Preview.jpeg"); */
+    /* background-image: url("/HorngChaang/img/slide/AdobeStock_305094244_Preview.jpeg"); */
+    background-image: url("/HorngChaang/img/slide/AdobeStock_315643829_Preview.jpeg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid #725e277a;
+    overflow: auto;
+    animation-name: slideshow1;
+    animation-name: slideshow2;
+    animation-name: slideshow3;
+    animation-name: slideshow4;
+    animation-name: slideshow5;
+    animation-delay:3s;
+    animation-duration:5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.slideshow:hover {
+  animation-play-state: paused;
+}
+
+
+
+/* 圖片輪播 */
+/* @Keyframes Setting */
+
+@keyframes slideshow1 {
+  from{
+  }
+  to {
+  }
+}
+
+@keyframes slideshow2 {
+  from{
+
+  }
+  to {
+
+  }
+}
+
+
+@keyframes slideshow3 {
+  from{
+
+  }
+  to {
+    
+  }
+}
+
+
+
+@keyframes slideshow4 {
+  from{
+
+  }
+  to {
+    
+  }
+}
+
+
+@keyframes slideshow5 {
+  from{
+
+  }
+  to {
+    
+  }
+}
+
+
+
+.content ul li {
+  background-color: #d8aeae;
+  height: 110px;
+  line-height: 110px;
+  float: left;
+  border: 3px solid #725e273d;
+  width: 384px;
+  padding-left: 6px;
+}
+
+.content .menu_news, .content .menu_recipe {
+  border-left: 6px solid #725e273d;
+}
+
+.content .menu_brand , .content .menu_saleschannel {
+  width: 395px;
+  
+}
+
+.content .menu_qa, .content .menu_about {
+  border-right: 5px solid #725e273d;
+}
+
+.content label , .content span{
+  color: #275753;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.menu_news {
+  background-image: url("/HorngChaang/img/temp/AdobeStock_214589367_PreviewRs3.jpeg");
+  background-size: cover;
+  transition-property: background-image;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.menu_news:hover{
+  background-image: none;
+  background-color: #ffe9c0;
+}
+
+.menu_news label:hover {
+  color:#275753;
+}
+
+.menu_news label {
+  width:380px;
+  color:#52709c00;
+  opacity:0.8;
+  letter-spacing: 10px;
+  padding-left:106px;
+  padding-top:25px;
+  padding-bottom:25px;
+  padding-right:85px;
+  transition-property: color;
+  transition-property: font-weight;
+  transition-duration:0.3s;
+  transition-timing-function: linear;
+}
+
+.menu_products:hover {
+  background-image: none;
+  background-color: #ffe9c0;
+  color:#275753;
+}
+
+.menu_brand:hover {
+  background-image: url("/HorngChaang/img/758Logo2.jpg");
+  opacity:1;
+}
+
+.menu_brand label:hover {
+  color:#275753;
+}
+
+
+
+
+.menu_products {
+  background-image: url("/HorngChaang/img/temp/AdobeStock_310601557_PreviewRa1.jpeg");
+  background-size: 100%;
+  transition-property: background-image;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+
+.menu_products label {
+  color: #f6fced;
+  letter-spacing: 12px;
+  padding-left: 105px;
+  padding-right: 85px;
+  padding-top:25px;
+  padding-bottom: 25px;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+.menu_products label:hover {
+  color:#275753;
+}
+
+.menu_brand {
+  background-image: url("/HorngChaang/img/758Logo3.jpg");
+  opacity:0.8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-property: background-image;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+
+
+/* .menu_brand span {
+  padding-left: 125px;
+  padding-right: 10px;
+  padding-top:25px;
+  padding-bottom: 25px;
+  letter-spacing: 2px;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+} */
+
+
+.menu_brand label {
+  color:#f0dcdc00;
+  letter-spacing: 4px;
+  padding-left: 125px;
+  padding-right:35px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+
+.menu_qa {
+  background-image: url("/HorngChaang/img/temp/AdobeStock_298583296_PreviewRs1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-property: background-color;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.menu_qa label {
+  color:#69243500;
+  letter-spacing: 12px;
+  padding-left:105px;
+  padding-right: 85px;
+  padding-top:25px;
+  padding-bottom: 25px;
+}
+
+.menu_qa:hover{
+  background-image: none;
+  background-color: #ffe9c0;
+}
+
+
+.menu_qa label:hover {
+  color:#275753;
+}
+
+.menu_recipe {
+  background-image: url("/HorngChaang/img/temp/AdobeStock_306942150_PreviewRs2.jpeg");
+  background-size: cover;
+  transition-property: background-color;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.menu_recipe label {
+  color:#d3d3d3;
+  letter-spacing: 12px;
+  padding-left:105px;
+  padding-right: 85px;
+  padding-top:25px;
+  padding-bottom: 25px;
+}
+
+.menu_recipe:hover{
+  background-image: none;
+  background-color: #ffe9c0;
+}
+
+.menu_recipe label:hover {
+  color:#275753;
+}
+
+
+
+.menu_shopping {
+  background-image: url("/HorngChaang/img/temp/AdobeStock_294333093_PreviewRs1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-property: background-color;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.menu_shopping label {
+  color:#692435;
+  letter-spacing: 12px;
+  padding-left:105px;
+  padding-right: 85px;
+  padding-top:25px;
+  padding-bottom: 25px;
+}
+
+.menu_shopping:hover{
+  background-image: none;
+  background-color: #ffe9c0;
+}
+
+
+.menu_shopping label:hover {
+  color:#275753;
+}
+
+.menu_saleschannel {
+  background-image: url("/HorngChaang/img/temp/AdobeStock_189545493_PreviewRs2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-property: background-color;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.menu_saleschannel label {
+  color:#345c4800;
+  letter-spacing: 12px;
+  padding-left:105px;
+  padding-right: 10px;
+  padding-top:25px;
+  padding-bottom: 25px;
+}
+
+.menu_saleschannel:hover{
+  background-image: none;
+  background-color: #ffe9c0;
+}
+
+
+.menu_saleschannel label {
+  letter-spacing: 10px;
+  padding-left: 70px;
+}
+
+.menu_saleschannel label:hover {
+  color:#275753;
+}
+
+
+
+.menu_about {
+  background-image: url("/HorngChaang/img/temp/AdobeStock_108345358_PreviewRs1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-property: background-color;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.menu_about label {
+  color:#69243500;
+  letter-spacing: 12px;
+  padding-left:105px;
+  padding-right: 85px;
+  padding-top:25px;
+  padding-bottom: 25px;
+}
+
+.menu_about:hover{
+  background-image: none;
+  background-color: #ffe9c0;
+}
+
+
+.menu_about label:hover {
+  color:#275753;
+}
+
+
+
+
+.footer {
+    background-color: #74481ed5;
+    padding-top: -5px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #f1db0d;
+}
+
+.company {
+  float: left;
+  /* border: 2px solid #ffffff; */
+  width: 700px;
+  padding-left: 110px;
+  padding-right: 10px;
+}
+
+.companyinfo {
+  float: left;
+  /* border: 2px solid #000000; */
+  width: 700px;
+}
+
+.footer p {
+  padding-top: 10px;
+}
+
+
+.testbox {
+  border: 2px solid darkred;
+  
+
+}
+
+.box1, .box2, .box3 {
+  border: 4px solid darkolivegreen;
+  float:left;
+  width: 300px;
+  height: 300px;  animation-name: testmove;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+}
+
+.box1 {
+  background-color: #fff;
+}
+
+.box2 {
+  background-color: #000;
+}
+
+.box3 {
+  background-color: darkorchid;
+}
+
+@keyframes testmove {
+  0%{
+    margin-right:300px;
+  }
+  50% {
+    margin-right: 500px;
+  }
+
+}
