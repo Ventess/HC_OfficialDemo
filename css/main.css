@@ -1,9 +1,9 @@
 
 body {
     /* font-family: 微軟正黑體; */
-    /* background-image: url("/img/AdobeStock_301845203.jpeg"); */
+    /* background-image: url("img/AdobeStock_301845203.jpeg"); */
     font-family: 'Noto Serif TC', serif;
-    background-image: url("/HorngChaang//img/AdobeStock_301845203.jpg");
+    background-image: url("img/AdobeStock_301845203.jpg");
     background-size: 1920px auto;
     height: 1080px;
     position:relative;
@@ -28,7 +28,7 @@ body {
 .header h1 a {
     width: 300px;
     height: 200px;
-    background-image: url("/HorngChaang/img/HorngchaangLogo.png");
+    background-image: url("img/HorngchaangLogo.png");
     background-size: 100%;
     background-repeat: no-repeat;
     margin-right: 30px;
@@ -88,11 +88,11 @@ body {
 .slideshow {
     height: 530px;
     /* background-color: #b39fa2; */
-    /* background-image: url("/HorngChaang/img/temp/AdobeStock_225585088_Preview.jpeg"); */
-    /* background-image: url("/HorngChaang/img/slide/AdobeStock_300128393_Preview.jpeg"); */
-    /* background-image: url("/HorngChaang/img/slide/AdobeStock_302110379_Preview.jpeg"); */
-    /* background-image: url("/HorngChaang/img/slide/AdobeStock_305094244_Preview.jpeg"); */
-    background-image: url("/HorngChaang/img/slide/AdobeStock_315643829_Preview.jpeg");
+    /* background-image: url("img/temp/AdobeStock_225585088_Preview.jpeg"); */
+    /* background-image: url("img/slide/AdobeStock_300128393_Preview.jpeg"); */
+    /* background-image: url("img/slide/AdobeStock_302110379_Preview.jpeg"); */
+    /* background-image: url("img/slide/AdobeStock_305094244_Preview.jpeg"); */
+    background-image: url("img/slide/AdobeStock_315643829_Preview.jpeg");
     background-size:contain;
     background-repeat: no-repeat;
     border-bottom: 3px solid #725e277a;
@@ -196,7 +196,7 @@ body {
 }
 
 .menu_news {
-  background-image: url("/HorngChaang/img/temp/AdobeStock_214589367_PreviewRs3.jpeg");
+  background-image: url("img/temp/AdobeStock_214589367_PreviewRs3.jpeg");
   background-size: cover;
   transition-property: background-image;
   transition-duration: 1s;
@@ -234,7 +234,7 @@ body {
 }
 
 .menu_brand:hover {
-  background-image: url("/HorngChaang/img/758Logo2.jpg");
+  background-image: url("img/758Logo2.jpg");
   opacity:1;
 }
 
@@ -246,7 +246,7 @@ body {
 
 
 .menu_products {
-  background-image: url("/HorngChaang/img/temp/AdobeStock_310601557_PreviewRa1.jpeg");
+  background-image: url("img/temp/AdobeStock_310601557_PreviewRa1.jpeg");
   background-size: 100%;
   transition-property: background-image;
   transition-property: color;
@@ -272,7 +272,7 @@ body {
 }
 
 .menu_brand {
-  background-image: url("/HorngChaang/img/758Logo3.jpg");
+  background-image: url("img/758Logo3.jpg");
   opacity:0.8;
   background-size: cover;
   background-repeat: no-repeat;
