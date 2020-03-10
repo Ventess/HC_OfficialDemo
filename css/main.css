@@ -5,7 +5,7 @@ body {
     font-family: 'Noto Serif TC', serif;
     background-image: url("../img/AdobeStock_301845203.jpg");
     background-size: 1920px auto;
-    height: 1080px;
+    height: 960px;
     position:relative;
 }
 
@@ -16,7 +16,6 @@ body {
 .wrap {
     width: 1600px;
     margin: 0 auto;
-
 }
 .header {
     /* border: 3px solid #123456; */
@@ -70,8 +69,20 @@ body {
     color:#ffffff;
 }
 
+
+
 .header a:visited {
     color: #ffffff;
+}
+
+.header a:active {
+  color:#ffffff;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  text-decoration-color: #4498f8;
+  color: #4498f8;
 }
 
 .clearfix:after {
@@ -80,89 +91,146 @@ body {
     clear: both;
 }
 
-.content {
+.content ul {
     opacity: 0.8;
     border-bottom: 5px solid #725e277a;
 }
 
-.slideshow {
-    height: 530px;
-    /* background-color: #b39fa2; */
-    /* background-image: url("../img/temp/AdobeStock_225585088_Preview.jpeg"); */
-    /* background-image: url("../img/slide/AdobeStock_300128393_Preview.jpeg"); */
-    /* background-image: url("../img/slide/AdobeStock_302110379_Preview.jpeg"); */
-    /* background-image: url("../img/slide/AdobeStock_305094244_Preview.jpeg"); */
-    background-image: url("../img/slide/AdobeStock_315643829_Preview.jpeg");
-    background-size:contain;
-    background-repeat: no-repeat;
-    border-bottom: 3px solid #725e277a;
-    overflow: auto;
-    animation-name: slideshow1;
-    animation-name: slideshow2;
-    animation-name: slideshow3;
-    animation-name: slideshow4;
-    animation-name: slideshow5;
-    animation-delay:3s;
-    animation-duration:5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+.leftshow, .rightshow {
+  float:left;
+  height:480px;
+  /* border: 2px solid gray; */
+
 }
 
-.slideshow:hover {
-  animation-play-state: paused;
+.leftshow {
+  width:791px;
+  position: relative;
+  box-shadow: #666 00 5px;
+  
+}
+
+.leftshow div {
+  position: absolute;
+  z-index:-1;
+  top:0;
+  left:0;
+  opacity:0;
+  animation: round1 50s linear infinite;
+}
+
+.leftshow div img {
+  width:795px;
+  height: 480px;
+  background-size: cover;
+}
+
+.leftshow div:nth-child(5){
+  animation-delay: 0s;
+}
+
+.leftshow div:nth-child(4){
+  animation-delay: 10s;
+}
+.leftshow div:nth-child(3){
+  animation-delay: 20s;
+}
+.leftshow div:nth-child(2){
+  animation-delay: 30s;
+}
+.leftshow div:nth-child(1){
+  animation-delay: 40s;
+}
+
+.rightshow {
+  width: 804px;
+  margin-left:4px;
+  background-image: url("../img/slide/AdobeStock_165611507_Preview.jpeg");
+  background-size: cover;
+}
+
+.rightshow div {
+  position: absolute;
+  margin-top:0px;
+  margin-left:950px;
+  opacity:0;
+  /* animation: round2 25s linear infinite; */
+}
+
+.rightshow div img {
+  /* width:801px; */
+  height: 480px;
+  background-size: cover;
+  margin-top:-2px;
+}
+
+.rightshow div:nth-child(5){
+  animation-delay: 25s;
+}
+
+.rightshow div:nth-child(4){
+  animation-delay: 30s;
+}
+.rightshow div:nth-child(3){
+  animation-delay: 35s;
+}
+.rightshow div:nth-child(2){
+  animation-delay: 40s;
+}
+.rightshow div:nth-child(1){
+  animation-delay: 45s;
 }
 
 
 
 /* 圖片輪播 */
 /* @Keyframes Setting */
-
-@keyframes slideshow1 {
-  from{
+@keyframes round1 {
+  4% {
+    opacity:1;
+    left:0;
   }
-  to {
+  20% {
+    opacity:1;
+    left:0;
   }
-}
-
-@keyframes slideshow2 {
-  from{
-
+  24% {
+    opacity:0;
+    left: 100%;
   }
-  to {
-
+  26% {
+    opacity:0;
+    left:100%;
   }
-}
-
-
-@keyframes slideshow3 {
-  from{
-
-  }
-  to {
-    
+  28% {
+    opacity:0;
+    left:0%;
   }
 }
 
-
-
-@keyframes slideshow4 {
-  from{
-
+@keyframes round2 {
+  4% {
+    opacity:1;
+    left:0;
   }
-  to {
-    
+  20% {
+    opacity:1;
+    /* left:0; */
+  }
+  24% {
+    opacity:1;
+    left: -42%;
+  }
+  26% {
+    opacity:0;
+    left:-42%;
+  }
+  28% {
+    opacity:0;
+    left:100%;
   }
 }
 
-
-@keyframes slideshow5 {
-  from{
-
-  }
-  to {
-    
-  }
-}
 
 
 
@@ -174,6 +242,10 @@ body {
   border: 3px solid #725e273d;
   width: 384px;
   padding-left: 6px;
+}
+
+.content ul li label:hover {
+  cursor:pointer;
 }
 
 .content .menu_news, .content .menu_recipe {
@@ -196,7 +268,7 @@ body {
 }
 
 .menu_news {
-  background-image: url("../img/temp/AdobeStock_214589367_PreviewRs3.jpeg");
+  /* background-image: url("../img/temp/AdobeStock_214589367_PreviewRs4.jpeg"); */
   background-size: cover;
   transition-property: background-image;
   transition-duration: 1s;
@@ -214,13 +286,13 @@ body {
 
 .menu_news label {
   width:380px;
-  color:#52709c00;
-  opacity:0.8;
-  letter-spacing: 10px;
-  padding-left:106px;
+  color:#133e41;
+  /* opacity:0.8; */
+  letter-spacing: 20px;
+  padding-left:100px;
   padding-top:25px;
   padding-bottom:25px;
-  padding-right:85px;
+  padding-right:60px;
   transition-property: color;
   transition-property: font-weight;
   transition-duration:0.3s;
@@ -233,20 +305,12 @@ body {
   color:#275753;
 }
 
-.menu_brand:hover {
-  background-image: url("../img/758Logo2.jpg");
-  opacity:1;
-}
-
-.menu_brand label:hover {
-  color:#275753;
-}
 
 
 
 
 .menu_products {
-  background-image: url("../img/temp/AdobeStock_310601557_PreviewRa1.jpeg");
+  /* background-image: url("../img/temp/AdobeStock_310601557_PreviewRa1.jpeg"); */
   background-size: 100%;
   transition-property: background-image;
   transition-property: color;
@@ -256,7 +320,7 @@ body {
 
 
 .menu_products label {
-  color: #f6fced;
+  color: #415c18;
   letter-spacing: 12px;
   padding-left: 105px;
   padding-right: 85px;
@@ -273,13 +337,22 @@ body {
 
 .menu_brand {
   background-image: url("../img/758Logo3.jpg");
-  opacity:0.8;
+  /* opacity:0.8; */
   background-size: cover;
   background-repeat: no-repeat;
   transition-property: background-image;
   transition-property: opacity;
   transition-duration: 0.3s;
   transition-timing-function: linear;
+}
+
+.menu_brand:hover {
+  background-image: url("../img/758Logo2.jpg");
+  opacity:1;
+}
+
+.menu_brand label:hover {
+  color:#275753;
 }
 
 
@@ -310,7 +383,7 @@ body {
 
 
 .menu_qa {
-  background-image: url("../img/temp/AdobeStock_298583296_PreviewRs1.jpeg");
+  /* background-image: url("../img/temp/AdobeStock_298583296_PreviewRs1.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   transition-property: background-color;
@@ -320,9 +393,9 @@ body {
 }
 
 .menu_qa label {
-  color:#69243500;
-  letter-spacing: 12px;
-  padding-left:105px;
+  color:#66158b;
+  letter-spacing: 14px;
+  padding-left:100px;
   padding-right: 85px;
   padding-top:25px;
   padding-bottom: 25px;
@@ -339,7 +412,7 @@ body {
 }
 
 .menu_recipe {
-  background-image: url("../img/temp/AdobeStock_306942150_PreviewRs2.jpeg");
+  /* background-image: url("../img/temp/AdobeStock_306942150_PreviewRs2.jpeg"); */
   background-size: cover;
   transition-property: background-color;
   transition-property: color;
@@ -348,12 +421,12 @@ body {
 }
 
 .menu_recipe label {
-  color:#d3d3d3;
-  letter-spacing: 12px;
-  padding-left:105px;
-  padding-right: 85px;
+  color:#0c837d;
+  letter-spacing: 20px;
+  padding-left:100px;
   padding-top:25px;
-  padding-bottom: 25px;
+  padding-bottom:25px;
+  padding-right:60px;
 }
 
 .menu_recipe:hover{
@@ -368,7 +441,7 @@ body {
 
 
 .menu_shopping {
-  background-image: url("../img/temp/AdobeStock_294333093_PreviewRs1.jpeg");
+  /* background-image: url("../img/temp/AdobeStock_294333093_PreviewRs1.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   transition-property: background-color;
@@ -397,7 +470,7 @@ body {
 }
 
 .menu_saleschannel {
-  background-image: url("../img/temp/AdobeStock_189545493_PreviewRs2.png");
+  /* background-image: url("../img/AdobeStock_130439644_Preview.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   transition-property: background-color;
@@ -423,7 +496,8 @@ body {
 
 .menu_saleschannel label {
   letter-spacing: 10px;
-  padding-left: 70px;
+  padding-left: 120px;
+  color: #1f4fb6;
 }
 
 .menu_saleschannel label:hover {
@@ -433,7 +507,7 @@ body {
 
 
 .menu_about {
-  background-image: url("../img/temp/AdobeStock_108345358_PreviewRs1.jpeg");
+  /* background-image: url("../img/temp/AdobeStock_108345358_PreviewRs1.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   transition-property: background-color;
@@ -443,7 +517,7 @@ body {
 }
 
 .menu_about label {
-  color:#69243500;
+  color:#692435;
   letter-spacing: 12px;
   padding-left:105px;
   padding-right: 85px;
@@ -460,7 +534,6 @@ body {
 .menu_about label:hover {
   color:#275753;
 }
-
 
 
 
@@ -491,41 +564,3 @@ body {
   padding-top: 10px;
 }
 
-
-.testbox {
-  border: 2px solid darkred;
-  
-
-}
-
-.box1, .box2, .box3 {
-  border: 4px solid darkolivegreen;
-  float:left;
-  width: 300px;
-  height: 300px;  animation-name: testmove;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-iteration-count: 5;
-}
-
-.box1 {
-  background-color: #fff;
-}
-
-.box2 {
-  background-color: #000;
-}
-
-.box3 {
-  background-color: darkorchid;
-}
-
-@keyframes testmove {
-  0%{
-    margin-right:300px;
-  }
-  50% {
-    margin-right: 500px;
-  }
-
-}
