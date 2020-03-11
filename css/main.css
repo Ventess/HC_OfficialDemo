@@ -4,8 +4,8 @@ body {
     /* background-image: url("../img/AdobeStock_301845203.jpeg"); */
     font-family: 'Noto Serif TC', serif;
     background-image: url("../img/AdobeStock_301845203.jpg");
-    background-size: 1920px auto;
-    height: 960px;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
     position:relative;
 }
 
@@ -15,6 +15,7 @@ body {
 
 .wrap {
     width: 1600px;
+    height: 960px;
     margin: 0 auto;
     padding-top:5px;
 }
@@ -585,13 +586,16 @@ body {
 }
 
 
-.menuitems ul li {
+.menuitems li {
   width: 295px;
   height:80px;
-  border: 2px solid gray;
-  margin-top: 5px;
-cursor: pointer;
+  border: 2px solid #3c440f;
+  margin-top: 4px;
+  cursor: pointer;
+  background-color: #c9fce06b;
 }
+
+
 
 .menuitems ul a li label {
   width: 295px;
@@ -662,5 +666,7 @@ cursor: pointer;
   margin-left: 20px;
   margin-top:5px;
   border: 2px solid pink;
-  overflow:auto ;
+  overflow-y:auto ;
+  overflow-x: hidden;
+  scrollbar-face-color: hotpink;
 }

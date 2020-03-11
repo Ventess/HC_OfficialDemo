@@ -7,5 +7,562 @@
 }
 
 .productsitem label {
-  color:#af9b7c;
+  color: #af9b7c;
+}
+
+.nowitem {
+  border: none;
+  background-color: #8f8f8f98;
+}
+
+.nowitem p {
+  font-size: 32px;
+  color: #fade92;
+  padding-top: 4px;
+  padding-left: 545px;
+  /* text-align: center; */
+}
+
+
+.itemcontent {
+  border: none;
+  background-color: #333333ea;
+}
+
+
+
+.brandlist {
+  margin-top: 25px;
+}
+
+.brandlist li {
+  float: left;
+  width: 360px;
+  /* border: 1px solid green; */
+}
+
+.itemcontent ul .b3 {
+  width: 510px;
+}
+
+.brandlist li label {
+  text-decoration: none;
+  font-size: 28px;
+}
+
+/* .brandlist li a {
+  text-decoration: none;
+  font-size: 28px;
+} */
+
+/* .brandlist li a label:hover {
+  color: #04af76;
+  cursor: pointer;
+} */
+
+/* .brandlist li a label {
+  color: #da3939;
+} */
+
+.brandlist li label {
+  color: #da3939;
+}
+
+.b1 label {
+  padding-left: 50px;
+}
+
+.b2 label {
+  padding-left: 170px;
+}
+
+.b3 label {
+  padding-left: 215px;
+}
+
+.divider1 {
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.productlist div {
+  float: left;
+}
+
+.productlist div ul li {
+  padding-top: 20px;
+}
+
+.list1 {
+  width: 400px;
+  /* height: 60px; */
+  /* border: 1px solid yellowgreen; */
+  margin-left: 50px;
+}
+
+
+.list1 a {
+  color: #a495b3;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.list1 a:hover {
+  color: #8ec6fa;
+  font-size: 22px;
+}
+
+.list2 {
+  width: 345px;
+  /* height: 60px; */
+  /* border: 1px solid yellowgreen; */
+  margin-left: 85px;
+}
+
+.list2 a {
+  color: #ffc46c;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.list2 a:hover {
+  color: #48aa52;
+  font-size: 22px;
+}
+
+
+.list3 {
+  width: 290px;
+  /* height: 60px; */
+  /* border: 1px solid yellowgreen; */
+  margin-left: 65px;
+}
+
+.list3 a {
+  color: #fcb4b4;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.list3 a:hover {
+  color: silver;
+  font-size: 22px;
+}
+
+.emptyspace {
+  height: 570px;
+}
+
+.divider2 {
+  margin-top: 20px;
+}
+
+.product1 {
+  position: relative;
+  height: 648px;
+  border: 3px solid lightgreen;
+}
+
+
+.product2 {
+  position: relative;
+  height: 648px;
+  border: 3px solid rgb(39, 66, 39);
+}
+
+.product3 {
+  position: relative;
+  height: 648px;
+  border: 3px solid lightgreen;
+}
+
+.product4 {
+  position: relative;
+  height: 648px;
+  border: 3px solid lightgreen;
+}
+
+.product5 {
+  position: relative;
+  height: 648px;
+  border: 3px solid lightgreen;
+}
+
+.product6 {
+  position: relative;
+  height: 648px;
+  border: 3px solid lightgreen;
+}
+
+.product7 {
+  position: relative;
+  height: 648px;
+  border: 3px solid lightgreen;
+}
+
+.product8 {
+  position: relative;
+  height: 648px;
+  border: 3px solid lightgreen;
+}
+
+.product9 {
+  position: relative;
+  height: 648px;
+  border: 3px solid #a2eba2;
+  margin-bottom: 120px;
+}
+
+
+.product1 label {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.product2 label {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.product3 label {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.product4 label {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.product5 label {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.product6 label {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.product7 label {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.product8 label {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.product9 label {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+
+.product1 img {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  border: 1px solid #fff;
+}
+
+.product2 img {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  border: 1px solid #fff;
+}
+
+.product3 img {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  border: 1px solid #fff;
+}
+
+.product4 img {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  border: 1px solid #fff;
+}
+
+.product5 img {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  border: 1px solid #fff;
+}
+
+.product6 img {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  border: 1px solid #fff;
+}
+
+.product7 img {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  border: 1px solid #fff;
+}
+
+.product8 img {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  border: 1px solid #fff;
+}
+
+.product9 img {
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  border: 1px solid #fff;
+}
+
+
+span {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.hide {
+  color: #ffffff00;
+}
+
+.product1 a {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  width: 255px;
+  /* height:40px; */
+  border: 1px solid #dadd0a;
+  color: #dadd0a;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  animation-name: shine;
+  /* animation-delay: 5s; */
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+.product2 a {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  width: 255px;
+  /* height:40px; */
+  border: 1px solid #dadd0a;
+  color: #dadd0a;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  animation-name: shine;
+  /* animation-delay: 5s; */
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+
+.product3 a {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  width: 255px;
+  /* height:40px; */
+  border: 1px solid #dadd0a;
+  color: #dadd0a;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  animation-name: shine;
+  /* animation-delay: 5s; */
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+
+.product4 a {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  width: 255px;
+  /* height:40px; */
+  border: 1px solid #dadd0a;
+  color: #dadd0a;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  animation-name: shine;
+  /* animation-delay: 5s; */
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+
+.product5 a {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  width: 255px;
+  /* height:40px; */
+  border: 1px solid #dadd0a;
+  color: #dadd0a;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  animation-name: shine;
+  /* animation-delay: 5s; */
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+
+.product6 a {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  width: 255px;
+  /* height:40px; */
+  border: 1px solid #dadd0a;
+  color: #dadd0a;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  animation-name: shine;
+  /* animation-delay: 5s; */
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+
+.product7 a {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  width: 255px;
+  /* height:40px; */
+  border: 1px solid #dadd0a;
+  color: #dadd0a;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  animation-name: shine;
+  /* animation-delay: 5s; */
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+
+.product8 a {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  width: 255px;
+  /* height:40px; */
+  border: 1px solid #dadd0a;
+  color: #dadd0a;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  animation-name: shine;
+  /* animation-delay: 5s; */
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+
+.product9 a {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  width: 255px;
+  /* height:40px; */
+  border: 1px solid #dadd0a;
+  color: #dadd0a;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  animation-name: shine;
+  /* animation-delay: 5s; */
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shine {
+
+  0% {
+    background-color: #067269a9;
+  }
+
+  50% {
+    background-color: #067269a9;
+  }
+
 }

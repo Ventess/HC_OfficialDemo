@@ -9,3 +9,50 @@
 .aboutitem label {
   color:#af9b7c;
 }
+
+
+.nowitem {
+  border: none;
+  background-color: #8f8f8f98;
+}
+
+.nowitem p {
+font-size:32px;
+padding-top:4px;
+color: #fade92;
+text-align: center;
+/* padding-left: 5px; */
+}
+
+.itemcontent {
+  position:relative;
+  border: none;
+  background-color: #333333ea;
+}
+
+.itemcontent p {
+  width: 820px;
+  font-size: 24px;
+  text-align: justify;
+  color: lightblue;
+  line-height:32px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.itemcontent .p1 {
+  margin-top:130px;
+}
+
+.itemcontent .p2 span {
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #ec2661;
+}
+
+.itemcontent img {
+  position:absolute;
+  top: 170px;
+  left: 925px;
+}
