@@ -611,17 +611,6 @@ cursor: pointer;
   text-decoration:none;
 }
 
-/* .menuitems ul a:hover {
-  color: green;
-} */
-
-/* .menuitems ul a:visited {
-  color: #ffffff;
-}
-
-.menuitems ul a:active {
-  color: #ffffff;
-} */
 
 .menuitems ul li:hover{
   background-color: #ffe9c0;
@@ -631,7 +620,7 @@ cursor: pointer;
   color: #462f4d;
 }
 
-.newsitem li {
+/* .newsitem li {
   background-color: #630603;
 }
 
@@ -640,14 +629,21 @@ cursor: pointer;
   padding-right:88px;
   padding-top:20px;
   padding-bottom:20px;
-}
+} */
 
-.productsitem label {
-  color: yellow;
+
+.menuitems ul a li label {
   padding-right:88px;
   padding-top:20px;
   padding-bottom:20px;
 }
+
+.menuitems ul .branditem li label {
+  padding-right:67px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
 
 
 .nowitem {

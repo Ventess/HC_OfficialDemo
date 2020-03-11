@@ -1,0 +1,11 @@
+/* 左側選單 CSS 設定 */
+/* 銷售據點 */
+
+.channelsitem li {
+  background-color: #630603;
+  /* background-color: #c47875; */
+}
+
+.channelsitem label {
+  color:#af9b7c;
+}

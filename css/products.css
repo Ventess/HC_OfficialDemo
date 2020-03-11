@@ -1,0 +1,11 @@
+/* 左側選單 CSS 設定 */
+/* 所有產品 */
+
+.productsitem li {
+  background-color: #630603;
+  /* background-color: #c47875; */
+}
+
+.productsitem label {
+  color:#af9b7c;
+}

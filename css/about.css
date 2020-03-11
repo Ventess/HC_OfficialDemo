@@ -1,0 +1,11 @@
+/* 左側選單 CSS 設定 */
+/* 關於我們 */
+
+.aboutitem li {
+  background-color: #630603;
+  /* background-color: #c47875; */
+}
+
+.aboutitem label {
+  color:#af9b7c;
+}

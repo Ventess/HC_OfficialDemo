@@ -1,0 +1,10 @@
+/* 左側選單 CSS 設定 */
+/* 最新消息 */
+.newsitem li {
+  background-color: #630603;
+  /* background-color: #c47875; */
+}
+
+.newsitem label {
+  color:#af9b7c;
+}
