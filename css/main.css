@@ -16,11 +16,16 @@ body {
 .wrap {
     width: 1600px;
     margin: 0 auto;
+    padding-top:5px;
 }
 .header {
     /* border: 3px solid #123456; */
     background-repeat: none;
     opacity: 0.8;
+    border-bottom: 2px solid transparent;
+    border-width: 0 0 2px 9;
+    border-image: linear-gradient(to right, #293e41 0%, #2b291a 100%);
+    border-image-slice: 1;
 }
 
 
@@ -91,6 +96,8 @@ body {
     clear: both;
 }
 
+
+
 .content ul {
     opacity: 0.8;
     border-bottom: 5px solid #725e277a;
@@ -106,7 +113,7 @@ body {
 .leftshow {
   width:791px;
   position: relative;
-  box-shadow: #666 00 5px;
+  /* box-shadow: #666 00 5px; */
   
 }
 
@@ -118,6 +125,7 @@ body {
   opacity:0;
   animation: round1 50s linear infinite;
 }
+
 
 .leftshow div img {
   width:795px;
@@ -232,7 +240,9 @@ body {
 }
 
 
-
+.content ul {
+  margin-top: 0px;
+}
 
 .content ul li {
   background-color: #d8aeae;
@@ -564,3 +574,97 @@ body {
   padding-top: 10px;
 }
 
+
+/* Layout 模板 CSS Setting */
+
+.menuitems {
+  width: 295px;
+  height: 715px;
+  margin-bottom: -5px;
+  float:left;
+}
+
+
+.menuitems ul li {
+  width: 295px;
+  height:80px;
+  border: 2px solid gray;
+  margin-top: 5px;
+cursor: pointer;
+}
+
+.menuitems ul a li label {
+  width: 295px;
+  height:80px;
+  line-height: 80px;
+  font-size: 28px;
+  padding-left: 95px;
+  cursor: pointer;
+}
+
+.menuitems ul .branditem li label {
+  padding-left:70px;
+}
+
+.menuitems ul a {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+/* .menuitems ul a:hover {
+  color: green;
+} */
+
+/* .menuitems ul a:visited {
+  color: #ffffff;
+}
+
+.menuitems ul a:active {
+  color: #ffffff;
+} */
+
+.menuitems ul li:hover{
+  background-color: #ffe9c0;
+}
+
+.menuitems ul a li label:hover {
+  color: #462f4d;
+}
+
+.newsitem li {
+  background-color: #630603;
+}
+
+.newsitem label {
+  color:#af9b7c;
+  padding-right:88px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.productsitem label {
+  color: yellow;
+  padding-right:88px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+
+.nowitem {
+  float:left;
+  width:1280px;
+  height:40px;
+  margin-left:20px;
+  margin-top:5px;
+  border:2px solid black;
+}
+
+.itemcontent {
+  float:left;
+  width:1280px;
+  height:654px;
+  margin-left: 20px;
+  margin-top:5px;
+  border: 2px solid pink;
+  overflow:auto ;
+}
