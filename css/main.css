@@ -33,7 +33,7 @@ body {
 .header h1 a {
     width: 300px;
     height: 200px;
-    background-image: url("../img/HorngchaangLogo.png");
+    background-image: url("../img/HorngchaangLogo.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     margin-right: 30px;
@@ -154,7 +154,7 @@ body {
 .rightshow {
   width: 804px;
   margin-left:4px;
-  background-image: url("../img/slide/AdobeStock_165611507_Preview.jpeg");
+  background-image: url("../img/slide/AdobeStock_165611507_Preview.jpg");
   background-size: cover;
 }
 
