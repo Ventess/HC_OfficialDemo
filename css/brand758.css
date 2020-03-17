@@ -1,6 +1,11 @@
 /* 左側選單 CSS 設定 */
 /* 758 品牌故事 */
 
+.footer {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
 .branditem li {
   background-color: #630603;
   /* background-color: #c47875; */
@@ -38,12 +43,13 @@
   text-align: justify;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-left: 300px;
+  margin-left: 200px;
+  /* margin-left: 300px; */
 }
 
 h4,
 h5 {
-  padding-left: 300px;
+  padding-left: 180px;
   color: silver;
 }
 
@@ -60,21 +66,21 @@ h5 {
 }
 
 .itemcontent .p1 {
-  margin-top: 30px;
+  margin-top: 90px;
 }
 
 .itemcontent .p2 {
-  padding: 15px 0;
+  /* padding: 15px 0; */
   font-style: italic;
-  color: rgb(116, 182, 116);
+  color: #74b674;
 }
 
 .itemcontent .p3 {
-  padding: 15px 0;
+  /* padding: 15px 0; */
 }
 
 .itemcontent .p4 {
-  padding: 15px 0;
+  /* padding: 15px 0; */
 }
 
 .itemcontent .p6 {
@@ -92,11 +98,11 @@ span {
 
 
 .imgout {
-  position: absolute;
-  top: 40px;
-  left: 70px;
-  width: 160px;
-  height: 160px;
+  position: fixed;
+  top: 270px;
+  left: 515px;
+  width: 110px;
+  height: 110px;
   background-color: #fdf8cb;
   border-radius: 160px;
 
@@ -104,10 +110,10 @@ span {
 
 .img {
   position: absolute;
-  top: 25px;
+  top: 18px;
   left: 4px;
-  width: 150px;
-  height: 120px;
+  width: 100px;
+  height: 80px;
   background-image: url("../img/T2.png");
   background-size: cover;
   background-repeat: no-repeat;

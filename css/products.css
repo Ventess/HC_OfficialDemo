@@ -1,6 +1,11 @@
 /* 左側選單 CSS 設定 */
 /* 所有產品 */
 
+.footer {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
 .productsitem li {
   background-color: #630603;
   /* background-color: #c47875; */
@@ -160,63 +165,72 @@
 .product1 {
   position: relative;
   height: 648px;
-  border: 3px solid lightgreen;
+  border-top: 3px solid #305030;
+  border-bottom: 3px solid #305030;
 }
 
 
 .product2 {
   position: relative;
   height: 648px;
-  border: 3px solid rgb(39, 66, 39);
+  border-top: 3px solid #305030;
+  border-bottom: 3px solid #305030;
 }
 
 .product3 {
   position: relative;
   height: 648px;
-  border: 3px solid lightgreen;
+  border-top: 3px solid #305030;
+  border-bottom: 3px solid #305030;
 }
 
 .product4 {
   position: relative;
   height: 648px;
-  border: 3px solid lightgreen;
+  border-top: 3px solid #305030;
+  border-bottom: 3px solid #305030;
 }
 
 .product5 {
   position: relative;
   height: 648px;
-  border: 3px solid lightgreen;
+  border-top: 3px solid #305030;
+  border-bottom: 3px solid #305030;
 }
 
 .product6 {
   position: relative;
   height: 648px;
-  border: 3px solid lightgreen;
+  border-top: 3px solid #305030;
+  border-bottom: 3px solid #305030;
 }
 
 .product7 {
   position: relative;
   height: 648px;
-  border: 3px solid lightgreen;
+  border-top: 3px solid #305030;
+  border-bottom: 3px solid #305030;
 }
 
 .product8 {
   position: relative;
   height: 648px;
-  border: 3px solid lightgreen;
+  border-top: 3px solid #305030;
+  border-bottom: 3px solid #305030;
 }
 
 .product9 {
   position: relative;
   height: 648px;
-  border: 3px solid #a2eba2;
+  border-top: 3px solid #305030;
+  border-bottom: 3px solid #305030;
   margin-bottom: 120px;
 }
 
 
 .product1 label {
   display: block;
-  color: #fff;
+  color: #f1c5c5;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -224,7 +238,7 @@
 
 .product2 label {
   display: block;
-  color: #fff;
+  color: #f1c5c5;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -232,7 +246,7 @@
 
 .product3 label {
   display: block;
-  color: #fff;
+  color: #f1c5c5;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -240,7 +254,7 @@
 
 .product4 label {
   display: block;
-  color: #fff;
+  color: #f1c5c5;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -248,7 +262,7 @@
 
 .product5 label {
   display: block;
-  color: #fff;
+  color: #f1c5c5;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -256,7 +270,7 @@
 
 .product6 label {
   display: block;
-  color: #fff;
+  color: #f1c5c5;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -264,7 +278,7 @@
 
 .product7 label {
   display: block;
-  color: #fff;
+  color: #f1c5c5;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -272,7 +286,7 @@
 
 .product8 label {
   display: block;
-  color: #fff;
+  color: #f1c5c5;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -280,7 +294,7 @@
 
 .product9 label {
   display: block;
-  color: #fff;
+  color: #f1c5c5;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -293,7 +307,7 @@
   position: absolute;
   top: 120px;
   left: 20px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .product2 img {
@@ -302,7 +316,7 @@
   position: absolute;
   top: 120px;
   left: 20px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .product3 img {
@@ -311,7 +325,7 @@
   position: absolute;
   top: 120px;
   left: 20px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .product4 img {
@@ -320,7 +334,7 @@
   position: absolute;
   top: 120px;
   left: 20px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .product5 img {
@@ -329,7 +343,7 @@
   position: absolute;
   top: 120px;
   left: 20px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .product6 img {
@@ -338,7 +352,7 @@
   position: absolute;
   top: 120px;
   left: 20px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .product7 img {
@@ -347,7 +361,7 @@
   position: absolute;
   top: 120px;
   left: 20px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .product8 img {
@@ -356,7 +370,7 @@
   position: absolute;
   top: 120px;
   left: 20px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .product9 img {
@@ -365,7 +379,7 @@
   position: absolute;
   top: 120px;
   left: 20px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 
@@ -565,4 +579,17 @@ span {
     background-color: #067269a9;
   }
 
+}
+
+
+.product1 img:hover,
+.product2 img:hover,
+.product3 img:hover,
+.product4 img:hover,
+.product5 img:hover,
+.product6 img:hover,
+.product7 img:hover,
+.product8 img:hover {
+  width: 350px;
+  height: 270px;
 }

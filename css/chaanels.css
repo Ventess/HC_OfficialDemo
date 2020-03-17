@@ -1,6 +1,11 @@
 /* 左側選單 CSS 設定 */
 /* 銷售據點 */
 
+.footer {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
 span {
   font-family: 'Quicksand', sans-serif;
 }
@@ -34,27 +39,44 @@ span {
   border: none;
   background-color: #333333ea;
   height: 604px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 
 .itemcontent div {
   float: left;
 }
 
+.toppart {
+  position:relative;
+  width: 1280px;
+  height: 120px;
+  /* border: 1px solid pink; */
+}
 
-.c1 {
+.bottompart {
+  position:static;
+width: 1280px;
+height:460px;
+/* border: 1px solid purple; */
+border-bottom: none;
+overflow-y: auto;
+overflow-x: hidden;
+margin-top:20px;
+}
+
+/* .c1 {
   margin-top: 20px;
   margin-left: 30px;
   font-size: 28px;
   color: #adb44b;
-}
+} */
 
 .p1 {
-  font-size: 18px;
+  font-size: 22px;
   color: #d4b1fc;
   position: relative;
-  margin-left:50px;
-  margin-top:10px;
+  margin-left:40px;
+  margin-top:20px;
   animation: TestMove 5s infinite alternate;
   -moz-animation: TestMove 5s infinite alternate;
   /*FireFox*/
@@ -68,7 +90,7 @@ span {
   }
 
   to {
-    left: 50%;
+    left: 35%;
   }
 }
 
@@ -78,7 +100,7 @@ span {
   }
 
   to {
-    left: 50%;
+    left:35%;
   }
 }
 
@@ -88,29 +110,70 @@ span {
   }
 
   to {
-    left: 50%;
+    left: 35%;
   }
 }
 
+
+.areas {
+  position:fixed;
+  width: 1258px;
+  height:50px;
+  border-bottom: 2px hidden #eed6a896;
+  margin-top:10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.areas ul li {
+  float:left;
+  padding: 5px;
+}
+
+.areas ul li label {
+  font-size: 28px;
+  color: #fade92;
+  margin-left: 35px;
+}
+
+.areas ul li a {
+  font-size: 28px;
+  /* color: #4abd08; */
+  color: #cc815f;
+  text-decoration: none;
+  margin-right: 15px;
+  padding-bottom:0px;
+  border-bottom: 2px solid #26b9c4;
+}
+
+.areas ul li a:hover {
+  color:#26b9c4;
+}
+
+
+
+
+
 .p2 {
   font-size: 26px;
-  color:#7e7eeb;
+  color:#3390fa;
   margin-top:15px;
   margin-bottom:15px;
-  margin-left: 25px;
+  margin-left: 175px;
 }
 
 
 .name {
-  width: 320px;
+  width: 280px;
   /* height: 145px; */
   /* border: 1px solid #fff; */
-  margin-left: 60px;
+  margin-left: 260px;
   margin-right: 10px;
+  
 }
 
 .address {
-  width: 450px;
+  width: 400px;
   /* height: 155px; */
   /* border: 1px solid #fff; */
   margin-left: 10px;
@@ -118,40 +181,40 @@ span {
 }
 
 .phone {
-  width: 380px;
+  width: 200px;
   /* height: 170px; */
   /* border: 1px solid #fff; */
   margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 25px;
+  margin-right: 50px;
+  margin-bottom: 45px;
 }
 
 .name p, .address p, .phone p {
   font-size:20px;
   color:#30f0a0;
-  line-height: 40px;
+  line-height: 30px;
 }
 
-
+/* 
 .c2 {
   margin-top: 340px;
   margin-left: 30px;
   font-size: 28px;
   color: #adb44b;
 
-}
+} */
 
 
 .name2 {
-  width: 320px;
+  width: 280px;
   /* height: 145px; */
   /* border: 1px solid #fff; */
-  margin-left: 60px;
+  margin-left: 260px;
   margin-right: 10px;
 }
 
 .address2 {
-  width: 450px;
+  width: 400px;
   /* height: 155px; */
   /* border: 1px solid #fff; */
   margin-left: 10px;
@@ -159,21 +222,22 @@ span {
 }
 
 .phone2 {
-  width: 380px;
+  width: 200px;
   /* height: 170px; */
   /* border: 1px solid #fff; */
   margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 25px;
+  margin-right: 50px;
+  margin-bottom: 45px;
 }
 
 .name2 p, .address2 p, .phone2 p {
   font-size:20px;
-  color:#26b9c4;
-  line-height: 40px;
+  color:#df6f87;
+  line-height: 30px;
 }
 
 span {
   font-family: 'Quicksand', sans-serif;
   /* color:black; */
 }
+

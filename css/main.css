@@ -283,7 +283,7 @@ body {
   line-height: 80px;
   float: left;
   border: 3px solid #725e273d;
-  width: 253px;
+  width: 252px;
   padding-left: 6px;
 }
 
@@ -296,9 +296,11 @@ body {
   border-left: 6px solid #725e273d;
 }
 
+
+
 .content .menu_brand,
 .content .menu_saleschannel {
-  width: 255px;
+  width: 256px;
 
 }
 
@@ -363,6 +365,10 @@ body {
   transition-property: color;
   transition-duration: 0.3s;
   transition-timing-function: linear;
+}
+
+li.menu_products {
+  border-right: 5px solid #d8aeae;
 }
 
 
@@ -527,6 +533,10 @@ body {
   background-color: #74481ed5;
   padding-top: 15px;
   padding-bottom: 30px;
+ 
+    /* padding-top: -5px;
+    padding-bottom: 10px; */
+ 
   font-size: 18px;
   text-align: center;
   color: #f1db0d;
@@ -656,3 +666,5 @@ body {
   }
 
 } */
+
+
