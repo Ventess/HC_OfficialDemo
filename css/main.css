@@ -283,11 +283,7 @@ body {
   line-height: 80px;
   float: left;
   border: 3px solid #725e273d;
-<<<<<<< HEAD
-  width: 252px;
-=======
   width: 254px;
->>>>>>> 6366e20321d4e48c0c2eefc0e16ed4a911869879
   padding-left: 6px;
 }
 
@@ -295,30 +291,12 @@ body {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-.content .menu_news,
-.content .menu_recipe {
-=======
 .content .menu_news {
->>>>>>> 6366e20321d4e48c0c2eefc0e16ed4a911869879
   border-left: 6px solid #725e273d;
 }
 
 
 
-<<<<<<< HEAD
-.content .menu_brand,
-.content .menu_saleschannel {
-  width: 256px;
-
-}
-
-/* .content .menu_qa,
-.content .menu_about {
-  border-right: 5px solid #725e273d;
-} */
-
-=======
 
 .content .menu_brand {
   width: 250px;
@@ -337,7 +315,6 @@ body {
   border-right: 5px solid #725e273d;
 } */
 
->>>>>>> 6366e20321d4e48c0c2eefc0e16ed4a911869879
 .content label,
 .content span {
   color: #275753;
