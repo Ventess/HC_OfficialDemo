@@ -593,3 +593,37 @@ span {
   width: 350px;
   height: 270px;
 }
+
+.productcontent {
+  width: 800px;
+  margin-left:420px;
+  margin-top:65px;
+}
+
+
+.productcontent p {
+  color: #b87d3a;
+  font-size: 18px;
+  text-align:justify;
+  margin-top:10px;
+  line-height:22px;
+}
+
+.productcontent .contenttitle {
+  color: lightblue;
+  font-size: 22px;
+margin-top:20px;
+}
+
+.productcontent ul li {
+  color: #b87d3a;
+  font-size: 18px;
+  line-height:26px;
+list-style: disc;
+margin-left:65px;
+
+}
+
+p.hintwords {
+  color: #d67878;
+}
