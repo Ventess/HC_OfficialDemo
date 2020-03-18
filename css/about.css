@@ -1,6 +1,11 @@
 /* 左側選單 CSS 設定 */
 /* 關於我們 */
 
+.footer {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
 .aboutitem li {
   background-color: #630603;
   /* background-color: #c47875; */
