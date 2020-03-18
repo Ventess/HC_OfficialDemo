@@ -59,6 +59,10 @@ body {
   color: #f4d09e;
 }
 
+.mobileheaderdesc {
+  visibility: hidden;
+}
+
 .header ul {
   float: right;
   font-size: 24px;
