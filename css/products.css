@@ -595,7 +595,9 @@ span {
 }
 
 .productcontent {
+  /* border: 1px solid silver; */
   width: 800px;
+  /* height: 550px; */
   margin-left:420px;
   margin-top:65px;
 }
@@ -626,4 +628,22 @@ margin-left:65px;
 
 p.hintwords {
   color: #d67878;
+}
+
+p.memowords {
+  width: 720px;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #92f7bf;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.product5 .productcontent {
+  margin-top:0px;
+}
+
+.product8 p.hintwords,
+.product9 p.hintwords {
+  margin-top: 40px;
 }
