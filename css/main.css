@@ -283,7 +283,7 @@ body {
   line-height: 80px;
   float: left;
   border: 3px solid #725e273d;
-  width: 252px;
+  width: 254px;
   padding-left: 6px;
 }
 
@@ -291,18 +291,24 @@ body {
   cursor: pointer;
 }
 
-.content .menu_news,
-.content .menu_recipe {
+.content .menu_news {
   border-left: 6px solid #725e273d;
 }
 
 
 
-.content .menu_brand,
+
+.content .menu_brand {
+  width: 250px;
+  border-right:3px solid #725e273d;
+}
+
 .content .menu_saleschannel {
   width: 256px;
-
+  border-right:6px solid #725e273d;
 }
+
+
 
 /* .content .menu_qa,
 .content .menu_about {
