@@ -15,7 +15,7 @@
 
 
     .header {
-        border-bottom: none;
+        border: none;
     }
 
     .header h1 {
@@ -239,12 +239,16 @@
 
  
     .content .menu_brand label {
+        width: 85px;
         font-size:14px;
         display:block;
-        padding-left:38px;
+        padding-left:10px;
         margin-top:10px;
     }
 
+    .content .menu_saleschannel label {
+        width:92px;
+    }
 
 
 
