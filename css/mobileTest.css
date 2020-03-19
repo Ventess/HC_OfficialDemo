@@ -1,0 +1,105 @@
+@media screen and (max-width: 575px) {
+
+
+
+    body {
+        background-image: none;
+        background-color: #463333;
+    }
+
+    .wrap {
+        height: auto;
+        max-width: 375px;
+        padding:0;
+    }
+
+    .header p,
+    .header ul {
+        float: none;
+    }
+
+    .header h1 {
+        margin:10px;
+        padding:0;
+    }
+
+
+    .mobileheaderdesc {
+        visibility: visible;
+    }
+
+.leftshow {
+    float:none;
+    max-width:375px;
+}
+
+div.rightshow {
+    width:0;
+    height:0;
+}
+
+.rightshow div {
+    width:0;
+    height:0;
+}
+
+.rightshow .slideimg1 {
+    width:0;
+    height:0;
+}
+
+.rightshow .slideimg2 {
+    width:0;
+    height:0;
+}
+
+.rightshow .slideimg3 {
+    width:0;
+    height:0;
+}
+
+.rightshow .slideimg4 {
+    width:0;
+    height:0;
+}
+
+.rightshow .slideimg5 {
+    width:0;
+    height:0;
+}
+
+
+.rightshow{
+    visibility: hidden;
+    
+}
+
+.rightshow div {
+    animation:none;
+}
+
+.rightshow div img {
+    
+    background-image: none;
+}
+
+
+.content ul {
+    float:none;
+    /* max-width:375px; */
+}
+
+
+.company {
+    float:none;
+    max-width:375px;
+    padding:0;
+}
+
+.companyinfo {
+    float:none;
+    max-width:375px;
+}
+
+
+}

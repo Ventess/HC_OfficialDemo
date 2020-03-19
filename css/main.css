@@ -187,10 +187,31 @@ body {
 
 .rightshow div img {
   width: 805px;
-  height: 550px;
+  height: 552px;
   background-size: cover;
   margin-top: -2px;
 }
+
+.rightshow .slideimg1 {
+  background-image: url("../img/slide/AdobeStock_300128393_Preview.jpg");
+}
+
+.rightshow .slideimg2 {
+  background-image: url("../img/slide/AdobeStock_302110379_Preview.jpg");
+}
+
+.rightshow .slideimg3 {
+  background-image: url("../img/slide/AdobeStock_305094244_Preview.jpg");
+}
+
+.rightshow .slideimg4 {
+  background-image: url("../img/slide/AdobeStock_193426672_Preview.jpg");
+}
+
+.rightshow .slideimg5 {
+  background-image: url("../img/slide/AdobeStock_306942150_Preview.jpg");
+}
+
 
 .rightshow div:nth-child(5) {
   animation-delay: 0s;
