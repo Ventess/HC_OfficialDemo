@@ -19,7 +19,7 @@
     }
 
     .header h1 {
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         margin: 0;
@@ -78,21 +78,21 @@
         position: absolute;
         top: 10px;
         left: 145px;
-        font-size:14px;
+        font-size: 14px;
     }
 
     .fbmessenger {
         position: absolute;
         top: 35px;
         left: 145px;
-        font-size:14px;
+        font-size: 14px;
     }
 
     .youtube {
         position: absolute;
         top: 10px;
         left: 230px;
-        font-size:14px;
+        font-size: 14px;
     }
 
 
@@ -156,9 +156,113 @@
     }
 
 
+
+    /* 選單部分 */
+
+
     .content ul {
         float: none;
+        border: none;
         /* max-width:375px; */
+    }
+
+    .content ul li {
+        border: none;
+        margin: 0;
+        padding: 0;
+        max-height:28px;
+        line-height: 18px;
+        border:1px solid #565861;
+    }
+
+
+    .content .menu_news {
+        border: none;
+        max-width: 122px;
+        max-height:40px;
+        line-height:18px;
+        border:1px solid #565861;
+        border-left:0px solid #565861;
+    }
+
+    .content .menu_about {
+        max-width: 122px;
+        max-height:40px;
+        line-height: 18px;
+        border:1px solid #565861;
+    }
+
+    .content .menu_brand {
+        max-width: 127px;
+        max-height:40px;
+        line-height: 18px;
+        border:1px solid #565861;
+        border-right:0px solid #565861;
+
+    }
+
+
+    .content .menu_products {
+        max-width: 122px;
+        max-height:40px;
+        line-height: 18px;
+        border:1px solid #565861;
+        border-left:0px solid #565861;
+    }
+
+    .content .menu_recipe {
+        max-width: 122px;
+        max-height:40px;
+        line-height: 18px;
+        border:1px solid #565861;
+
+    }
+
+    .content .menu_saleschannel {
+        border: none;
+        max-width: 127px;
+        max-height:40px;
+        line-height: 18px;
+        border:1px solid #565861;
+        border-right:0px solid #565861;
+    }
+
+    .content ul li label {
+        display:block;
+        font-size:16px;
+        letter-spacing: normal;
+        padding:0;
+        margin:0;
+        margin-left:30px;
+        margin-top:10px;
+    }
+
+ 
+    .content .menu_brand label {
+        font-size:14px;
+        display:block;
+        padding-left:38px;
+        margin-top:10px;
+    }
+
+
+
+
+
+
+
+
+    /* Footer */
+
+    .footer {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+    .footer p {
+        padding-top: 5px;
     }
 
 
@@ -166,11 +270,18 @@
         float: none;
         max-width: 375px;
         padding: 0;
+        margin: 0;
+        font-size: 12px;
+        /* line-height:14px; */
     }
 
     .companyinfo {
         float: none;
         max-width: 375px;
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+        /* line-height:14px; */
     }
 
 
