@@ -1,0 +1,192 @@
+/* Products mobile 375-575 setting start */
+
+@media screen and (max-width:575px) {
+
+
+.wrap {
+    position:relative;
+}
+
+.header, .menuitems, .itemcontent {
+    float:none;
+}
+
+.header {
+    max-width:375px;
+    height:105px;
+    border-bottom:1px solid #7e5f5f;
+}
+
+.pagecontent {
+    width:0;
+    height:0;
+}
+
+
+.menuitems {
+    width:375px;
+    height:69px;
+    border-bottom:1px solid #7e5f5f;
+}
+
+.nowitem {
+    width:0;
+    height:0;
+    visibility: hidden;
+}
+
+.nowitem p {
+    width:0;
+    height:0;
+    padding:0;
+}
+
+
+.itemcontent {
+    max-width:375px;
+    position:absolute;
+    margin:0;
+    padding:0;
+    top:180px;
+    left:0;
+}
+
+.footer {
+    position:fixed;
+    height:65px;
+    bottom:40px;
+    /* visibility: hidden; */
+}
+
+
+/* 功能選單區設定 */
+.menuitems ul {
+    position:absolute;
+    max-width: 120px;
+    padding:0;
+    margin:0;
+}
+
+
+.menuitems ul a {
+    margin:0;
+    padding:0;
+    height:0;
+    width:0;
+}
+
+.menuitems ul li {
+    max-width:120px;
+    height:30px;
+}
+
+.menuitems ul a li label {
+    max-width:120px;
+    height:30px;
+    font-size:18px;
+    /* line-height:16px; */
+    padding:0;
+    margin:0;
+}
+
+.menuitems ul .branditem li label {
+    padding:0;
+}
+
+a.newsitem {
+    position:absolute;
+    top:-4px;
+    left:0;
+}
+
+a.newsitem li label {
+    position:absolute;
+    top:-20px;
+    left:27px;
+}
+
+
+a.aboutitem {
+    position:absolute;
+    top:-4px;
+    left:125px;
+}
+
+a.aboutitem li label {
+    position:absolute;
+    top:-20px;
+    left:27px;
+}
+
+a.branditem {
+    position:absolute;
+    top:-4px;
+    left:250px;
+}
+
+a.branditem li label {
+    position:absolute;
+    top:-20px;
+    left:12px;
+}
+
+a.productsitem {
+    position:absolute;
+    top:31px;
+    left:0px;
+}
+
+a.productsitem li label {
+    position:absolute;
+    top:-20px;
+    left:27px;
+}
+
+a.recipeitem {
+    position:absolute;
+    top:31px;
+    left:125px;
+}
+
+a.recipeitem li label {
+    position:absolute;
+    top:-20px;
+    left:27px;
+}
+
+a.channelsitem {
+    position:absolute;
+    top:31px;
+    left:250px;
+}
+
+a.channelsitem li label {
+    position:absolute;
+    top:-20px;
+    left:27px;
+}
+
+/* 功能選單設定 END */
+
+
+/* 產品內容區塊設定 START */
+
+
+
+
+/* 產品內容區塊設定 END */
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* Products mobile 375-575 setting end */
