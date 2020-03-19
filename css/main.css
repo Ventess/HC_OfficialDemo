@@ -687,15 +687,303 @@ li.menu_products {
   scrollbar-face-color: hotpink;
 }
 
-/* 
-@media screen and (max-width: 1600px) {
+
+/* index mobile 375-575 setting start */
+
+@media screen and (max-width: 575px) {
+
+
 
   body {
-    width: 1280px;
-    background-image: none;
-    background-color: #fff;
+      background-image: none;
+      background-color: #463333;
   }
 
-} */
+  .wrap {
+      height: auto;
+      max-width: 375px;
+      padding: 0;
+  }
+
+
+  .header {
+      border: none;
+  }
+
+  .header h1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 0;
+      padding: 0;
+  }
+
+  .header h1 a {
+      max-width: 160px;
+      max-height: 140px;
+  }
+
+
+  .header p {
+      position: absolute;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      top: 85px;
+      left: 170px;
+  }
+
+  .mobileheaderdesc {
+      visibility: visible;
+      position: relative;
+      display: block;
+      top: 110px;
+      color: lightpink;
+      font-size: 13px;
+      width: 350px;
+      text-align: justify;
+      margin-left: 5px;
+      line-height: 16px;
+
+  }
+
+  .email {
+      width: 0px;
+      height: 0px;
+      margin: 0;
+      padding: 0;
+  }
+
+  .email a {
+      visibility: hidden;
+      width: 0px;
+      height: 0px;
+      margin: 0;
+      padding: 0;
+  }
+
+  .header ul {
+      font-size: 16px;
+  }
+
+  .facebook {
+      position: absolute;
+      top: 10px;
+      left: 145px;
+      font-size: 14px;
+  }
+
+  .fbmessenger {
+      position: absolute;
+      top: 35px;
+      left: 145px;
+      font-size: 14px;
+  }
+
+  .youtube {
+      position: absolute;
+      top: 10px;
+      left: 230px;
+      font-size: 14px;
+  }
+
+
+
+  .leftshow {
+      /* position:relative; */
+      float: none;
+      max-width: 375px;
+      max-height: 200px;
+      margin-top: -35px;
+  }
+
+  div.rightshow {
+      width: 0;
+      height: 0;
+  }
+
+  .rightshow div {
+      width: 0;
+      height: 0;
+  }
+
+  .rightshow .slideimg1 {
+      width: 0;
+      height: 0;
+  }
+
+  .rightshow .slideimg2 {
+      width: 0;
+      height: 0;
+  }
+
+  .rightshow .slideimg3 {
+      width: 0;
+      height: 0;
+  }
+
+  .rightshow .slideimg4 {
+      width: 0;
+      height: 0;
+  }
+
+  .rightshow .slideimg5 {
+      width: 0;
+      height: 0;
+  }
+
+
+  .rightshow {
+      visibility: hidden;
+
+  }
+
+  .rightshow div {
+      animation: none;
+  }
+
+  .rightshow div img {
+
+      background-image: none;
+  }
+
+
+
+  /* 選單部分 */
+
+
+  .content ul {
+      float: none;
+      border: none;
+      /* max-width:375px; */
+  }
+
+  .content ul li {
+      border: none;
+      margin: 0;
+      padding: 0;
+      max-height:28px;
+      line-height: 18px;
+      border:1px solid #565861;
+  }
+
+
+  .content .menu_news {
+      border: none;
+      max-width: 122px;
+      max-height:40px;
+      line-height:18px;
+      border:1px solid #565861;
+      border-left:0px solid #565861;
+  }
+
+  .content .menu_about {
+      max-width: 122px;
+      max-height:40px;
+      line-height: 18px;
+      border:1px solid #565861;
+  }
+
+  .content .menu_brand {
+      max-width: 127px;
+      max-height:40px;
+      line-height: 18px;
+      border:1px solid #565861;
+      border-right:0px solid #565861;
+
+  }
+
+
+  .content .menu_products {
+      max-width: 122px;
+      max-height:40px;
+      line-height: 18px;
+      border:1px solid #565861;
+      border-left:0px solid #565861;
+  }
+
+  .content .menu_recipe {
+      max-width: 122px;
+      max-height:40px;
+      line-height: 18px;
+      border:1px solid #565861;
+
+  }
+
+  .content .menu_saleschannel {
+      border: none;
+      max-width: 127px;
+      max-height:40px;
+      line-height: 18px;
+      border:1px solid #565861;
+      border-right:0px solid #565861;
+  }
+
+  .content ul li label {
+      display:block;
+      font-size:16px;
+      letter-spacing: normal;
+      padding:0;
+      margin:0;
+      margin-left:30px;
+      margin-top:10px;
+  }
+
+
+  .content .menu_brand label {
+      width: 85px;
+      font-size:14px;
+      display:block;
+      padding-left:10px;
+      margin-top:10px;
+  }
+
+  .content .menu_saleschannel label {
+      width:92px;
+  }
+
+
+
+
+
+
+
+  /* Footer */
+
+  .footer {
+      margin: 0;
+      padding: 0;
+      height: auto;
+      padding-bottom: 5px;
+  }
+
+  .footer p {
+      padding-top: 5px;
+  }
+
+
+  .company {
+      float: none;
+      max-width: 375px;
+      padding: 0;
+      margin: 0;
+      font-size: 12px;
+      /* line-height:14px; */
+  }
+
+  .companyinfo {
+      float: none;
+      max-width: 375px;
+      padding: 0;
+      margin: 0;
+      font-size: 12px;
+      /* line-height:14px; */
+  }
+
+
+}
+
+
+/* index mobile 375-575 setting end */
 
 
