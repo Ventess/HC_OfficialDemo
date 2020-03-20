@@ -647,3 +647,507 @@ p.memowords {
 .product9 p.hintwords {
   margin-top: 40px;
 }
+
+
+
+
+/* Products mobile 375-575 setting start */
+
+@media screen and (max-width:575px) {
+
+
+  .wrap {
+      position: relative;
+  }
+
+  .header,
+  .menuitems,
+  .itemcontent {
+      float: none;
+  }
+
+  .header {
+      max-width: 375px;
+      height: 105px;
+      border-bottom: 1px solid #7e5f5f;
+  }
+
+  .pagecontent {
+      width: 0;
+      height: 0;
+  }
+
+
+  .menuitems {
+      width: 375px;
+      height: 69px;
+      border-bottom: 1px solid #7e5f5f;
+  }
+
+  .nowitem {
+      width: 0;
+      height: 0;
+      visibility: hidden;
+  }
+
+  .nowitem p {
+      width: 0;
+      height: 0;
+      padding: 0;
+  }
+
+
+  .itemcontent {
+      max-width: 375px;
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      top: 180px;
+      left: 0;
+  }
+
+  .footer {
+      position: fixed;
+      height: 65px;
+      bottom: 0px;
+      /* visibility: hidden; */
+  }
+
+
+  /* 功能選單區設定 */
+  .menuitems ul {
+      position: absolute;
+      max-width: 120px;
+      padding: 0;
+      margin: 0;
+  }
+
+
+  .menuitems ul a {
+      margin: 0;
+      padding: 0;
+      height: 0;
+      width: 0;
+  }
+
+  .menuitems ul li {
+      max-width: 120px;
+      height: 30px;
+  }
+
+  .menuitems ul a li label {
+      max-width: 120px;
+      height: 30px;
+      font-size: 18px;
+      /* line-height:16px; */
+      padding: 0;
+      margin: 0;
+  }
+
+  .menuitems ul .branditem li label {
+      padding: 0;
+  }
+
+  a.newsitem {
+      position: absolute;
+      top: -4px;
+      left: 0;
+  }
+
+  a.newsitem li label {
+      position: absolute;
+      top: -20px;
+      left: 27px;
+  }
+
+
+  a.aboutitem {
+      position: absolute;
+      top: -4px;
+      left: 125px;
+  }
+
+  a.aboutitem li label {
+      position: absolute;
+      top: -20px;
+      left: 27px;
+  }
+
+  a.branditem {
+      position: absolute;
+      top: -4px;
+      left: 250px;
+  }
+
+  a.branditem li label {
+      position: absolute;
+      top: -20px;
+      left: 12px;
+  }
+
+  a.productsitem {
+      position: absolute;
+      top: 31px;
+      left: 0px;
+  }
+
+  a.productsitem li label {
+      position: absolute;
+      top: -20px;
+      left: 27px;
+  }
+
+  a.recipeitem {
+      position: absolute;
+      top: 31px;
+      left: 125px;
+  }
+
+  a.recipeitem li label {
+      position: absolute;
+      top: -20px;
+      left: 27px;
+  }
+
+  a.channelsitem {
+      position: absolute;
+      top: 31px;
+      left: 250px;
+  }
+
+  a.channelsitem li label {
+      position: absolute;
+      top: -20px;
+      left: 27px;
+  }
+
+  /* 功能選單設定 END */
+
+
+  /* 產品內容區塊設定 START */
+
+  .brandlist li {
+      position: absolute;
+  }
+
+  .brandlist li label {
+      padding: 0;
+      /* border:1px solid silver; */
+  }
+
+  .b1 {
+      top: 20px;
+      left: 10px;
+  }
+
+  .b2 {
+      top: 250px;
+      left: 10px;
+  }
+
+  .b3 {
+      top: 350px;
+      left: 10px;
+  }
+
+
+
+  .brandlist li label {
+      font-size: 18px;
+  }
+
+
+  .productlist {
+      height: 430px;
+  }
+
+  .productlist div {
+      position: absolute;
+      /* border:1px solid silver; */
+      margin: 0;
+      padding: 0;
+      width: 300px;
+      margin-left: 30px;
+  }
+
+  .productlist div ul li {
+      height: 0;
+      padding: 0;
+  }
+
+  .list1 {
+      top: 0;
+      left: 0;
+  }
+
+  .list2 {
+      top: 250px;
+      left: 0;
+  }
+
+  .list3 {
+      top: 350px;
+      left: 0;
+  }
+
+
+  .divider1 {
+      width: 0;
+      height: 0;
+      margin: 0;
+      padding: 0;
+      visibility: hidden;
+  }
+
+  .emptyspace {
+      width: 0;
+      height: 0;
+  }
+
+  .divider2 {
+      width: 0;
+      height: 0;
+      margin: 0;
+      padding: 0;
+      visibility: hidden;
+  }
+
+  .productlist div li {
+
+      height: 0;
+      width: 30;
+  }
+
+  .list1 ul {
+      margin-top: 50px;
+  }
+
+  .list1 li a {
+      display: block;
+      font-size: 14px;
+      margin-top: 24px;
+      text-decoration: underline;
+  }
+
+  .list2 li a {
+      font-size: 14px;
+      display: block;
+      font-size: 14px;
+      margin-top: 32px;
+      text-decoration: underline;
+  }
+
+  .list3 li a {
+      font-size: 14px;
+      display: block;
+      font-size: 14px;
+      margin-top: 32px;
+      text-decoration: underline;
+  }
+
+  .list1 a:hover, .list2 a:hover, .list3 a:hover {
+      font-size:14px;
+  }
+
+
+  .product1,
+  .product2,
+  .product3,
+  .product4,
+  .product5,
+  .product6,
+  .product7,
+  .product8,
+  .product9 {
+      height: 590px;
+
+  }
+
+  .product1 a,
+  .product2 a,
+  .product3 a,
+  .product4 a,
+  .product5 a,
+  .product6 a,
+  .product7 a,
+  .product8 a,
+  .product9 a {
+      font-size: 18px;
+      width: 165px;
+      bottom: 20px;
+      right: 20px;
+  }
+
+  .product5 a {
+      bottom:400px;
+  }
+
+  .product1 label,
+  .product2 label,
+  .product3 label,
+  .product4 label,
+  .product5 label,
+  .product6 label,
+  .product7 label,
+  .product8 label,
+  .product9 label {
+      font-size: 16px;
+  }
+
+  .product1 img,
+  .product2 img,
+  .product3 img,
+  .product4 img,
+  .product5 img,
+  .product6 img,
+  .product7 img,
+  .product8 img,
+  .product9 img {
+      width: 120px;
+      height: 120px;
+      top: 70px;
+  }
+
+  .product1 img:hover,
+  .product2 img:hover,
+  .product3 img:hover,
+  .product4 img:hover,
+  .product5 img:hover,
+  .product6 img:hover,
+  .product7 img:hover,
+  .product8 img:hover,
+  .product9 img:hover {
+      width: 120px;
+      height: 120px;
+  }
+
+.productcontent {
+  position:absolute;
+  top:210px;
+  width:375px;
+  margin:0;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.productcontent p {
+  width:350px;
+  font-size:12px;
+  line-height: normal;
+  margin:0;
+  text-align: justify;
+  margin-left:10px;
+}
+
+.productcontent ul li {
+  width:350px;
+  font-size:12px;
+  line-height: normal;
+  padding:0;
+}
+
+.product1 .productcontent .contenttitle {
+  /* position:absolute; */
+  width:350px;
+  top:180px;
+  left:20px;
+  font-size:16px;
+  margin:0;
+}
+
+
+.product2 .productcontent .contenttitle {
+  /* position:absolute; */
+  width:350px;
+  top:180px;
+  left:20px;
+  font-size:16px;
+  margin:0;
+}
+
+.product3 .productcontent .contenttitle {
+  /* position:absolute; */
+  width:350px;
+  top:180px;
+  left:20px;
+  font-size:16px;
+  margin:0;
+}
+
+.product4 .productcontent .contenttitle {
+  /* position:absolute; */
+  width:350px;
+  top:180px;
+  left:20px;
+  font-size:16px;
+  margin:0;
+}
+
+.product5 .productcontent .contenttitle {
+  /* position:absolute; */
+  width:350px;
+  top:180px;
+  left:20px;
+  font-size:16px;
+  margin:0;
+}
+
+.product6 .productcontent .contenttitle {
+  /* position:absolute; */
+  width:350px;
+  top:180px;
+  left:20px;
+  font-size:16px;
+  margin:0;
+}
+
+.product7 .productcontent .contenttitle {
+  /* position:absolute; */
+  width:350px;
+  top:180px;
+  left:20px;
+  font-size:16px;
+  margin:0;
+}
+
+
+.product8 .productcontent .contenttitle {
+  /* position:absolute; */
+  width:350px;
+  top:180px;
+  left:20px;
+  font-size:16px;
+  margin:0;
+}
+
+.product9 .productcontent .contenttitle {
+  /* position:absolute; */
+  width:350px;
+  top:180px;
+  left:20px;
+  font-size:16px;
+  margin:0;
+}
+
+
+p.memowords {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+  /* 產品內容區塊設定 END */
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* Products mobile 375-575 setting end */
