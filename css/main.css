@@ -61,7 +61,9 @@ body {
 
 .mobileheaderdesc {
   visibility: hidden;
+  position:absolute;
 }
+
 
 .header ul {
   float: right;
@@ -744,7 +746,6 @@ li.menu_products {
       text-align: justify;
       margin-left: 5px;
       line-height: 16px;
-
   }
 
   .email {
