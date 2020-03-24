@@ -237,36 +237,6 @@ body {
 
 
 
-/* 圖片輪播 */
-/* @Keyframes Setting */
-/* @keyframes round1 {
-  4% {
-    opacity: 1;
-    left: 0;
-  }
-
-  20% {
-    opacity: 1;
-    left: 0;
-  }
-
-  24% {
-    opacity: 0;
-    left: -100%;
-  }
-
-  26% {
-    opacity: 0;
-    left: -100%;
-  }
-
-  28% {
-    opacity: 0;
-    left: 0%;
-  }
-} */
-
-
 @keyframes round2 {
   4% {
     opacity: 1;
@@ -350,7 +320,6 @@ body {
 }
 
 .menu_news {
-  /* background-image: url("../img/temp/AdobeStock_214589367_PreviewRs4.jpeg"); */
   background-size: cover;
   transition-property: background-image;
   transition-duration: 1s;
@@ -392,7 +361,6 @@ body {
 
 
 .menu_products {
-  /* background-image: url("../img/temp/AdobeStock_310601557_PreviewRa1.jpeg"); */
   background-size: 100%;
   transition-property: background-image;
   transition-property: color;
@@ -422,8 +390,6 @@ li.menu_products {
 }
 
 .menu_brand {
-  background-image: url("../img/758Logo3.jpg");
-  /* opacity:0.8; */
   background-size: cover;
   background-repeat: no-repeat;
   transition-property: background-image;
@@ -433,8 +399,8 @@ li.menu_products {
 }
 
 .menu_brand:hover {
-  background-image: url("../img/758Logo2.jpg");
-  opacity: 1;
+  background-image: none;
+  background-color: #ffe9c0;
 }
 
 .menu_brand label:hover {
@@ -443,24 +409,13 @@ li.menu_products {
 
 
 
-/* .menu_brand span {
-  padding-left: 125px;
-  padding-right: 10px;
-  padding-top:25px;
-  padding-bottom: 25px;
-  letter-spacing: 2px;
-  transition-property: color;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
-} */
-
 
 .menu_brand label {
   width: 250px;
-  font-size:28px;
-  color: #f0dcdc00;
+  font-size:34px;
+  color: #3f3f50;
   letter-spacing: 0px;
-  padding-left: 80px;
+  padding-left: 22px;
   padding-right: 8px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -935,8 +890,8 @@ li.menu_products {
       width: 85px;
       font-size:14px;
       display:block;
-      padding-left:10px;
       margin-top:10px;
+      margin-left:25px;
   }
 
   .content .menu_saleschannel label {
