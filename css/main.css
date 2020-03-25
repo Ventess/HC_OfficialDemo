@@ -859,11 +859,11 @@ li.menu_products {
 
 
   .content .menu_brand label {
-      width: 85px;
+      width: 90px;
       font-size:14px;
       display:block;
       margin-top:10px;
-      margin-left:10px;
+      margin-left:25px;
   }
 
   .content .menu_saleschannel label {
