@@ -37,7 +37,7 @@ span {
 .itemcontent {
   position: relative;
   border: none;
-  background-color: #333333ea;
+  background-color: #8cac9dea;
   height: 654px;
   /* padding-bottom: 50px; */
 }
@@ -73,7 +73,7 @@ margin-top:20px;
 
 .p1 {
   font-size: 22px;
-  color: #d4b1fc;
+  color: #591ca0;
   position: relative;
   margin-left:40px;
   margin-top:20px;
@@ -132,22 +132,22 @@ margin-top:20px;
 
 .areas ul li label {
   font-size: 28px;
-  color: #fade92;
+  color: #755e1f;
   margin-left: 35px;
 }
 
 .areas ul li a {
   font-size: 28px;
   /* color: #4abd08; */
-  color: #cc815f;
+  color: #9e4319;
   text-decoration: none;
   margin-right: 15px;
   padding-bottom:0px;
-  border-bottom: 2px solid #26b9c4;
+  border-bottom: 2px solid #0d7a81;
 }
 
 .areas ul li a:hover {
-  color:#26b9c4;
+  color:#0b5b61;
 }
 
 
@@ -156,7 +156,7 @@ margin-top:20px;
 
 .p2 {
   font-size: 26px;
-  color:#3390fa;
+  color:#0e65c9;
   margin-top:15px;
   margin-bottom:15px;
   margin-left: 175px;
@@ -191,7 +191,7 @@ margin-top:20px;
 
 .name p, .address p, .phone p {
   font-size:20px;
-  color:#30f0a0;
+  color:#135f40;
   line-height: 30px;
 }
 
@@ -232,7 +232,7 @@ margin-top:20px;
 
 .name2 p, .address2 p, .phone2 p {
   font-size:20px;
-  color:#df6f87;
+  color:#8a3044;
   line-height: 30px;
 }
 

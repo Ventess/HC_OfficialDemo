@@ -31,7 +31,7 @@
 
 .itemcontent {
   border: none;
-  background-color: #333333ea;
+  background-color: #8cac9dea;
 }
 
 .recipemenu {
@@ -51,15 +51,15 @@
 
 .recipemenu a {
   font-size:20px;
-  color:pink;
+  color:#3b3032;
   text-decoration: none;
-  border-bottom: 1px solid pink;
+  border-bottom: 1px solid #3b3032;
 }
 
 .recipemenu a:hover {
-  color: #fade92;
+  color: #0a5c51;
   cursor: pointer;
-  border-bottom: 1px solid #fade92;
+  border-bottom: 1px solid #0a5c51;
 }
 
 
@@ -78,7 +78,7 @@
 .chocolateputing label {
   display: block;
   font-size: 28px;
-  color: lightsalmon;
+  color: #9b340c;
   padding-top: 35px;
   margin-left: 40px;
 }
@@ -96,15 +96,15 @@
   top:360px;
   left:40px;
   font-size:24px;
-  color:red;
+  color:#b10c0c;
   text-decoration: none;
   padding-bottom: 2px;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #b10c0c;
 }
 
 .videolink:hover {
-  color:lightsteelblue;
-  border-bottom: 1px solid lightsteelblue;
+  color:#3270c2;
+  border-bottom: 1px solid #3270c2;
 }
 
 
@@ -148,8 +148,8 @@ label.materialTitle {
   top:70px;
   left:530px;
   font-size:26px;
-  color: #d1fca0;
-  border-bottom: 1px solid #d1fca0;
+  color: #3a610e;
+  border-bottom: 1px solid #3a610e;
 }
 
 label.stepsTitle {
@@ -157,8 +157,8 @@ label.stepsTitle {
   top:70px;
   left:940px;
   font-size:26px;
-  color: #d1fca0;
-  border-bottom: 1px solid #d1fca0;
+  color: #3a610e;
+  border-bottom: 1px solid #3a610e;
 }
 
 
@@ -167,7 +167,7 @@ label.stepsTitle {
   position:absolute;
   width: 330px;
   height:250px;
-  border-left: 1px solid silver;
+  border-left: 1px solid #614f4f;
   /* border-top: 1px dashed rgba(94, 91, 91, 0.678); */
   top:150px;
   left:435px;
@@ -185,7 +185,7 @@ label.stepsTitle {
   font-size: 18px;
   padding-left:50px;
   line-height:36px;
-  color: #c09aa0;
+  color: #b12f43;
 }
 
 .material .count {
@@ -200,14 +200,14 @@ label.stepsTitle {
   text-align:right;
   padding-right:45px;
 line-height:36px;
-color: #c25479;
+color: #8b143c;
 }
 
 .steps {
   position: absolute;
   width: 450px;
   height:470px;
-  border-left: 1px solid silver;
+  border-left: 1px solid #614f4f;
   top: 150px;
   left: 770px;
   overflow-x:hidden;
@@ -227,7 +227,7 @@ color: #c25479;
   list-style: decimal;
   list-style-position: outside;
   margin-bottom:10px;
-  color: #86a6b9;
+  color: #114f74;
 }
 
 

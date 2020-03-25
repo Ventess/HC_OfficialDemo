@@ -31,7 +31,7 @@
 
 .itemcontent {
   border: none;
-  background-color: #333333ea;
+  background-color: #8cac9dea;
 }
 
 
@@ -70,7 +70,7 @@
 } */
 
 .brandlist li label {
-  color: #da3939;
+  color: #7e2e2e;
 }
 
 .b1 label {
@@ -107,13 +107,13 @@
 
 
 .list1 a {
-  color: #a495b3;
+  color: #5d2694;
   font-size: 20px;
   text-decoration: none;
 }
 
 .list1 a:hover {
-  color: #8ec6fa;
+  color: #184f86;
   font-size: 22px;
 }
 
@@ -125,13 +125,13 @@
 }
 
 .list2 a {
-  color: #ffc46c;
+  color: #291f0e;
   font-size: 20px;
   text-decoration: none;
 }
 
 .list2 a:hover {
-  color: #48aa52;
+  color: #226129;
   font-size: 22px;
 }
 
@@ -144,13 +144,13 @@
 }
 
 .list3 a {
-  color: #fcb4b4;
+  color: #88430b;
   font-size: 20px;
   text-decoration: none;
 }
 
 .list3 a:hover {
-  color: silver;
+  color: #07688f;
   font-size: 22px;
 }
 
@@ -230,7 +230,7 @@
 
 .product1 label {
   display: block;
-  color: #f1c5c5;
+  color: #466107;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -238,7 +238,7 @@
 
 .product2 label {
   display: block;
-  color: #f1c5c5;
+  color: #466107;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -246,7 +246,7 @@
 
 .product3 label {
   display: block;
-  color: #f1c5c5;
+  color: #466107;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -254,7 +254,7 @@
 
 .product4 label {
   display: block;
-  color: #f1c5c5;
+  color: #466107;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -262,7 +262,7 @@
 
 .product5 label {
   display: block;
-  color: #f1c5c5;
+  color: #466107;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -270,7 +270,7 @@
 
 .product6 label {
   display: block;
-  color: #f1c5c5;
+  color: #466107;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -278,7 +278,7 @@
 
 .product7 label {
   display: block;
-  color: #f1c5c5;
+  color: #466107;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -286,7 +286,7 @@
 
 .product8 label {
   display: block;
-  color: #f1c5c5;
+  color: #466107;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -294,7 +294,7 @@
 
 .product9 label {
   display: block;
-  color: #f1c5c5;
+  color: #466107;
   font-size: 24px;
   margin-top: 30px;
   margin-left: 30px;
@@ -389,6 +389,12 @@ span {
 
 .hide {
   color: #ffffff00;
+}
+
+.GoFunction {
+  visibility: hidden;
+  bottom:0;
+  left:20px;
 }
 
 .product1 a {
@@ -604,7 +610,7 @@ span {
 
 
 .productcontent p {
-  color: #b87d3a;
+  color: #5a4022;
   font-size: 18px;
   text-align:justify;
   margin-top:10px;
@@ -612,13 +618,13 @@ span {
 }
 
 .productcontent .contenttitle {
-  color: lightblue;
+  color: #23414b;
   font-size: 22px;
 margin-top:20px;
 }
 
 .productcontent ul li {
-  color: #b87d3a;
+  color: #643e13;
   font-size: 18px;
   line-height:26px;
 list-style: disc;
@@ -627,14 +633,14 @@ margin-left:65px;
 }
 
 p.hintwords {
-  color: #d67878;
+  color: #812b2b;
 }
 
 p.memowords {
   width: 720px;
   margin: 0 auto;
   margin-top: 10px;
-  color: #92f7bf;
+  color: #055a2b;
   font-style: italic;
   font-size: 16px;
 }
@@ -1134,6 +1140,41 @@ p.memowords {
   margin-top:5px;
   margin-bottom:5px;
 }
+
+.GoFunction {
+  visibility: visible;
+  bottom:0;
+  left:20px;
+}
+
+.product1 a.GoFunction,
+.product2 a.GoFunction,
+.product3 a.GoFunction,
+.product4 a.GoFunction,
+.product5 a.GoFunction,
+.product6 a.GoFunction,
+.product7 a.GoFunction,
+.product8 a.GoFunction,
+.product9 a.GoFunction
+ {
+  font-size:14px;
+  width:100px;
+}
+
+.product1 a.Gotop,
+.product2 a.Gotop,
+.product3 a.Gotop,
+.product4 a.Gotop,
+.product5 a.Gotop,
+.product6 a.Gotop,
+.product7 a.Gotop,
+.product8 a.Gotop,
+.product9 a.Gotop
+ {
+  font-size:14px;
+  width:130px;
+}
+
 
   /* 產品內容區塊設定 END */
 
