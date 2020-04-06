@@ -34,6 +34,16 @@
   background-color: #8cac9dea;
 }
 
+.comming {
+  font-size:44px;
+  font-style:italic;
+  margin-left:340px;
+  margin-top:280px;
+  letter-spacing: 15px;
+  color: #3f3c23;
+}
+
+
 .recipemenu {
   height:615px;
   padding-bottom:10px;
